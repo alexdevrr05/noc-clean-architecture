@@ -1,1 +1,9 @@
-console.log('Primeros pasos en el proyecto');
+import { Server } from './presentation/server';
+
+(async () => {
+  main();
+})();
+
+function main() {
+  Server.start();
+}
